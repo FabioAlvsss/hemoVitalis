@@ -30,7 +30,7 @@ public class PacienteResource {
 
     @PutMapping("/{id}")
     public ResponseEntity<PacienteDTO> update(@PathVariable Long id,@RequestBody PacienteDTO pacienteDTO) {
-        PacienteDTO pacienteDTO1DTO = service.upate(id,pacienteDTO);
+        PacienteDTO pacienteDTO1DTO = service.update(id,pacienteDTO);
         return ResponseEntity.ok().body(pacienteDTO1DTO);
     }
 
