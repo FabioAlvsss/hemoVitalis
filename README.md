@@ -1,2 +1,2 @@
 # hemoVitalis
-Repositorio destinado para a criação da aplicação WEB da hemovitali
+Repositorio destinado para o back End  aplicação WEB da hemovitali
